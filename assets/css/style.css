@@ -1,12 +1,13 @@
 header {
     background: #262539;
-    padding: 25px 90px;
+    padding: 25px 78px;
 }
 .hd_logo {
     height: 30px;
 }
 .header_menu{
     display: flex;
+    align-items: center;
     margin-bottom: 0;
     justify-content: flex-end;
 }
@@ -33,7 +34,7 @@ header .row{
     display: flex;
     align-items: center;
 }
-.header_login{
+.header_menu li a.header_login{
     text-decoration: none;
     color: #18b68d;
     font-family: "Source Sans Pro";
@@ -43,9 +44,16 @@ header .row{
     letter-spacing: normal;
     letter-spacing: normal;
     line-height: normal;
-    padding-left: 11px;
-    padding-right: 11px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 .header_chat{
-    padding-left: 11px;
+    padding-left: 3px;
+}
+.home_post {
+    margin: 70px 58px 0px 58px;
+}
+
+.home_post__chel {
+    width: 100%;
 }
