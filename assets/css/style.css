@@ -163,6 +163,10 @@ header .row{
 }
 .home_mini_post {
     box-shadow: 1px 4px 8px rgba(51, 51, 51, 0.45);
-    margin: 15px 20px 15px 8px;
+    margin: 15px 0 15px 20px;
+}
+.home_mini_post_all .col-6:nth-child(odd) .home_mini_post {
+    margin-left: 0;
+    margin-right: 20px;
 }
 
