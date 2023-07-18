@@ -5,7 +5,7 @@ header {
 .hd_logo {
     height: 30px;
 }
-.header_menu{
+.header_menu {
     display: flex;
     align-items: center;
     margin-bottom: 0;
@@ -14,7 +14,7 @@ header {
 header .row{
     align-items: center;
 }
-.header_menu li a{
+.header_menu li a {
     text-decoration: none;
     color: #FFFFFF;
     font-family: "Source Sans Pro";
@@ -25,16 +25,16 @@ header .row{
     letter-spacing: normal;
     line-height: normal;
 }
-.header_menu li{
+.header_menu li {
     list-style-type: none;
     padding-left: 8px;
     padding-right: 8px;
 }
-.header_contacts{
+.header_contacts {
     display: flex;
     align-items: center;
 }
-.header_menu li a.header_login{
+.header_menu li a.header_login {
     text-decoration: none;
     color: #18b68d;
     font-family: "Source Sans Pro";
@@ -47,15 +47,13 @@ header .row{
     padding-left: 3px;
     padding-right: 3px;
 }
-.header_chat{
+.header_chat {
     padding-left: 3px;
 }
 .home_post {
     margin: 70px 58px 0px 58px;
     box-shadow: 1px 4px 8px rgba(51, 51, 51, 0.45);
-
 }
-
 .home_post__chel {
     width: 100%;
     height: 500px;
@@ -103,13 +101,10 @@ header .row{
 }
 .home_post__info_block {
     padding: 0 58px 47px 57px;
-
 }
-.home_mini_post_all
-{
+.home_mini_post_all {
     margin: 27px 58px 0 70px;
 }
-
 .img_realtors {
     width: 100%;
     height: 240px;
@@ -129,7 +124,6 @@ header .row{
     margin: 0;
     line-height: 1;
 }
-
 .home_mini_post h1 {
     font-size: 24px;
     color: #575757;
@@ -183,7 +177,52 @@ header .row{
     margin: 0;
     line-height: 1;
 }
-.nav_menu input{
+.nav_menu label {
+    margin-top: 35px;
     width: 100%;
+    background-color: #f2f2f3;
+    padding:0 25px 0 25px;
+    height: 50px;
+}
+.nav_menu input {
+    outline: none;
+    height: 100%;
+    width: 100%;
+    border: none;
+    background: rgba(255, 255, 255, 0);
+}
+.nav_menu h2 {
+    margin-top: 45px;
+    color:#575757;
+    width: 112px;
+    height: 22px;
+    font-family: "Source Sans Pro";
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 27px;
+    text-align: left;
+}
+
+.nav_menu_col {
+    display: flex;
+    flex-direction: column;
+}
+.nav_menu_col a {
+    text-decoration: none;
+    color: #575757;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 27px;
+    text-align: left;
+
+}
+.nav_menu .col-6:nth-child(even) .nav_menu_col {
+    border-left: solid #93c7aa;
+    padding-left: 37px;
 
 }
