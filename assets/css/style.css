@@ -1,6 +1,8 @@
 header {
     background: #262539;
     padding: 25px 78px;
+    width: 100%;
+    position: fixed;
 }
 
 .hd_logo {
@@ -58,7 +60,7 @@ header .row {
 }
 
 .home_post {
-    margin: 70px 58px 0 58px;
+    margin: 150px 58px 0 58px;
     box-shadow: 1px 4px 8px rgba(51, 51, 51, 0.45);
 }
 
@@ -206,13 +208,14 @@ header .row {
     outline: none;
     height: 45px;
     width: 100%;
-    border:none;
+    border: none;
     background: #f2f2f3;
     margin-top: 35px;
     padding: 0;
     padding-left: 20px;
     padding-right: 20px;
 }
+
 .nav_menu input::placeholder {
     color: #575757;
     font-family: "Source Sans Pro", sans-serif;
@@ -254,10 +257,11 @@ header .row {
     letter-spacing: normal;
     line-height: 27px;
     text-align: left;
-    transition: 0.3s;
+    transition: 0.5s;
 }
-.nav_menu_col a:hover{
-    color:#69b58e;
+
+.nav_menu_col a:hover {
+    color: #69b58e;
 }
 
 .nav_menu .col-6:nth-child(even) .nav_menu_col {
