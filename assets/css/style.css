@@ -353,7 +353,6 @@ footer label {
 
 .footer__login input::placeholder {
     color: #ffffff;
-
 }
 
 .footer__login input:focus::placeholder {
@@ -470,4 +469,68 @@ footer label {
 
 .footer__chat_img {
     margin-top: 25px;
+}
+.footer__name_email {
+    border:none;
+    outline: none;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width: 100%;
+    height: 50px;
+    background-color: #353446;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+
+.footer__name_email::placeholder {
+    color: #ffffff;
+}
+
+.footer__name_email:focus::placeholder {
+    color: transparent;
+}
+
+.footer__message {
+    border:none;
+    outline: none;
+    margin-top: 6px;
+    width: 100%;
+    height: 197px;
+    background-color: #353446;
+    padding: 15px 20px;
+    color: #ffffff;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.footer__message::placeholder {
+    color: #ffffff;
+}
+
+.footer__message:focus::placeholder {
+    color: transparent;
+}
+.footer__contact_us button{
+    height: 48px;
+    width: 168px;
+    color: #18b68d;
+    background-color: transparent;
+    border: solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 27px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.footer__contact_us button:hover {
+    color: #ffffff;
+    background-color: #18b68d;
+    border-color: #18b68d;
 }
