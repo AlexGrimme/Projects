@@ -224,6 +224,9 @@ header .row {
     font-style: normal;
     letter-spacing: normal;
 }
+.nav_menu input:focus::placeholder {
+    color:transparent;
+}
 
 .nav_menu h2 {
     margin-top: 45px;
@@ -470,8 +473,9 @@ footer label {
 .footer__chat_img {
     margin-top: 25px;
 }
+
 .footer__name_email {
-    border:none;
+    border: none;
     outline: none;
     margin-top: 6px;
     margin-bottom: 6px;
@@ -492,7 +496,7 @@ footer label {
 }
 
 .footer__message {
-    border:none;
+    border: none;
     outline: none;
     margin-top: 6px;
     width: 100%;
@@ -511,7 +515,8 @@ footer label {
 .footer__message:focus::placeholder {
     color: transparent;
 }
-.footer__contact_us button{
+
+.footer__contact_us button {
     height: 48px;
     width: 168px;
     color: #18b68d;
