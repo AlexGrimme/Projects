@@ -307,26 +307,28 @@ footer {
 }
 
 footer p {
-    color:#ffffff;
+    color: #ffffff;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
-    line-height: 27px;
+    line-height: 20px;
     text-align: left;
     margin-bottom: 0;
 }
 
-.footer_info {
-
+.footer__placeholder_logo {
+    margin-bottom: 28px;
 }
-.footer__login{
+
+.footer__login {
     display: flex;
     flex-direction: column;
     margin-top: 22px;
 }
-footer label{
+
+footer label {
     color: #ffffff;
     font-family: "Source Sans Pro - Semibold", sans-serif;
     font-size: 24px;
@@ -337,7 +339,8 @@ footer label{
     text-align: left;
     margin-bottom: 5px;
 }
-.footer__login input{
+
+.footer__login input {
     margin-top: 11px;
     background-color: #353446;
     height: 48px;
@@ -347,19 +350,22 @@ footer label{
     padding-right: 20px;
     color: #ffffff;
 }
-.footer__login input::placeholder{
+
+.footer__login input::placeholder {
     color: #ffffff;
 
 }
-.footer__login input:focus::placeholder{
+
+.footer__login input:focus::placeholder {
     color: transparent;
 }
-.footer__login button{
+
+.footer__login button {
     height: 48px;
     width: 168px;
     color: #18b68d;
     background-color: transparent;
-    border: solid ;
+    border: solid;
     border-radius: 10px;
     margin-top: 15px;
     font-family: "Source Sans Pro", sans-serif;
@@ -371,9 +377,97 @@ footer label{
     text-align: center;
     transition: 0.3s;
 }
-.footer__login button:hover{
-    color: #117c61;
+
+.footer__login button:hover {
+    color: #ffffff;
+    background-color: #18b68d;
+    border-color: #18b68d;
+
 }
-.footer_contact_news{
+
+.footer_contact_news {
     padding-left: 135px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact h3 {
+    color: #ffffff;
+    font-family: "Source Sans Pro - Semibold", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 27px;
+    text-align: left;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 27px;
+    text-align: left;
+    transition: 0.3s;
+}
+
+.contact a:hover {
+    color: #18b68d;
+}
+
+.logos {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 160px;
+    justify-content: space-between;
+}
+
+.logos a {
+    display: flex;
+}
+
+.news h3 {
+    margin-top: 25px;
+    margin-bottom: 18px;
+    color: #ffffff;
+    font-family: "Source Sans Pro - Semibold", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 27px;
+    text-align: left;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+}
+
+.news a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 27px;
+    text-align: left;
+    transition: 0.3s;
+}
+
+.news a:hover {
+    color: #18b68d;
+}
+
+.footer__chat_img {
+    margin-top: 25px;
 }
