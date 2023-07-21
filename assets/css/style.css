@@ -29,6 +29,11 @@ header .row {
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
+    transition: 0.3s;
+}
+
+.header_menu li a:hover {
+    color: #18b68d;
 }
 
 .header_menu li {
